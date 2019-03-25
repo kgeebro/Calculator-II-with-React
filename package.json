@@ -1,0 +1,30 @@
+{
+  "name": "calculator-ii-with-react",
+  "version": "1.0.0",
+  "description": "Another version of my calculator using React",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgeebro/Calculator-II-with-React.git"
+  },
+  "author": "Kannah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kgeebro/Calculator-II-with-React/issues"
+  },
+  "homepage": "https://github.com/kgeebro/Calculator-II-with-React#readme",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack --watch",
+    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env, --watch"
+  },
+  "dependencies": {
+    "babel-cli": "6.24.1",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "live-server": "^1.2.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "webpack": "3.1.0"
+  }
+}
