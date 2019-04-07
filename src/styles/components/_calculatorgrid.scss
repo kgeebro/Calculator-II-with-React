@@ -1,0 +1,9 @@
+#grid {
+    font-size: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 150px [col-start]); 
+    grid-template-rows: repeat(6, 150px [row-start]);
+    grid-auto-rows: 50%;
+    width: 600px;
+}

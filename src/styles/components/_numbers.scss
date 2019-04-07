@@ -1,0 +1,14 @@
+.number {
+    background-color: black;
+    color: white;
+    font-size: $button-fontsize;
+    /* border: solid 1px black; */
+    margin: 10% 10%; 
+    /* used to get rid of default top margin of each cell */
+    /* used to get rid of default bottom margin of each cell */
+    padding-top: 45px;
+    /* Moves the number down to the center of each cell from the top */
+}
+.number:hover{
+    cursor: pointer;
+}

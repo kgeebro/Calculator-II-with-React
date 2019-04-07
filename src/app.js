@@ -1,11 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom' 
+import ReactDOM from 'react-dom';
+import CalculatorApp from './components/CalculatorApp';
+import './styles/styles.scss';
 
-console.log('APP.js IS RUNNING');
-console.log('THIS THE APP.JS FILE BRUH!!! IT IS!!!!');
-
-
-// Import React and ReactDOM
-// Essential Styles files
-// Research normalize file
-// ReactDOM.render(<Name-of-App (<---Component) />, document.getElementById('app'));
+ReactDOM.render(<CalculatorApp />, document.getElementById('app'));

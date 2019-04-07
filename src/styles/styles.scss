@@ -1,0 +1,10 @@
+// @import all necessary files 
+//Even thought the file is _base.scss the '_' and 'scss' is left off
+@import './base/base';
+@import './base/settings';
+@import './components/calculatorgrid';
+@import './components/calculations';
+@import './components/clear';
+@import './components/equals';
+@import './components/numbers';
+@import './components/operators';
